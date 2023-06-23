@@ -1,0 +1,18 @@
+p {
+  color: red;
+}
+ol {
+  display: flex;
+  gap: 50px;
+}
+ol::before {
+  display: none;
+}
+.container {
+  display: flex;
+  width: 500px;
+  gap: 50px;
+}
+.box {
+  width: 100px;
+}
